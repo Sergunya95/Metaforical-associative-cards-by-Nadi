@@ -13,6 +13,8 @@
 		186FDD9B25E565AD006AE97F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FDD9925E565AD006AE97F /* Main.storyboard */; };
 		186FDD9D25E565B1006AE97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186FDD9C25E565B1006AE97F /* Assets.xcassets */; };
 		186FDDA025E565B1006AE97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186FDD9E25E565B1006AE97F /* LaunchScreen.storyboard */; };
+		186FDDAA25E56F84006AE97F /* ChooseCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FDDA925E56F84006AE97F /* ChooseCardViewController.swift */; };
+		186FDDAD25E56FC9006AE97F /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FDDAC25E56FC9006AE97F /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		186FDD9C25E565B1006AE97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186FDD9F25E565B1006AE97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186FDDA125E565B1006AE97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186FDDA925E56F84006AE97F /* ChooseCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCardViewController.swift; sourceTree = "<group>"; };
+		186FDDAC25E56FC9006AE97F /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				186FDD9325E565AD006AE97F /* AppDelegate.swift */,
 				186FDD9525E565AD006AE97F /* SceneDelegate.swift */,
 				186FDD9725E565AD006AE97F /* ViewController.swift */,
+				186FDDAC25E56FC9006AE97F /* AnswerViewController.swift */,
+				186FDDA925E56F84006AE97F /* ChooseCardViewController.swift */,
 				186FDD9925E565AD006AE97F /* Main.storyboard */,
 				186FDD9C25E565B1006AE97F /* Assets.xcassets */,
 				186FDD9E25E565B1006AE97F /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				186FDD9825E565AD006AE97F /* ViewController.swift in Sources */,
 				186FDD9425E565AD006AE97F /* AppDelegate.swift in Sources */,
+				186FDDAD25E56FC9006AE97F /* AnswerViewController.swift in Sources */,
 				186FDD9625E565AD006AE97F /* SceneDelegate.swift in Sources */,
+				186FDDAA25E56F84006AE97F /* ChooseCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RRAQ4U897N;
 				INFOPLIST_FILE = "Metaforical associative cards by Nadi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Druzhinin.Metaforical-associative-cards-by-Nadi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RRAQ4U897N;
 				INFOPLIST_FILE = "Metaforical associative cards by Nadi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Druzhinin.Metaforical-associative-cards-by-Nadi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

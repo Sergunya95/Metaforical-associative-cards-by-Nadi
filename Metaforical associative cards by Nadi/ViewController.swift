@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var buttonOne: UIButton!
+    @IBOutlet weak var buttonTwo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        buttonOne.layer.cornerRadius = 15
+        buttonTwo.layer.cornerRadius = 15
+        
     }
 
-
+    @IBAction func chooseCardButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func getAnswerButtonPressed(_ sender: UIButton) {
+    }
 }
 
